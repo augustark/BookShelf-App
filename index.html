@@ -14,29 +14,29 @@
   <script src="test.js"></script>
 </head>
 <body>
-  <header>
-      <h1>Logo</h1>
-  </header>
-
-  <section class="library">    
-      <div id="container">
-          <div class="cover add">
-              <button id="add" class="cover add">Add Book</button>
-          </div>
-      </div>
-  </section>
-
-  <form id="form" class="form">
-      <input type="text" id="title" name="title" placeholder="Title" required/>
-      <input type="text" id="author" name="author" placeholder="Author" required>
-      <input type="number" id="pages" name="pages" placeholder="Pages" required>
-      <div class="wrapper">
-          <input type="checkbox" id="check-not" name="isDone"> 
-          <label for="check-not">Have you done reading it?</label>
-      </div>
-      <button class="collection" id="submit">Add to Collection</button>
-      <button class="cancel" id="cancel">Cancel</button>
-  </form>
+    <header>
+        <h1>Odin Library</h1>
+    </header>
+    
+    <section class="library">    
+        <div id="container">
+            <div class="cover add">
+                <button id="add" class="cover add"></button>
+            </div>
+        </div>
+    </section>
+    
+    <form id="form" class="form">
+        <input type="text" id="title" name="title" placeholder="Title" required/>
+        <input type="text" id="author" name="author" placeholder="Author" required>
+        <input type="number" id="pages" name="pages" placeholder="Pages" required>
+        <div class="wrapper">
+            <input type="checkbox" id="check-not" name="isDone"> 
+            <label for="check-not">Have you done reading it?</label>
+        </div>
+        <button class="collection" id="submit">Add to Collection</button>
+        <button class="cancel" id="cancel">Cancel</button>
+    </form>
   <script src="app.js"></script>
 </body>
 </html>

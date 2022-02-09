@@ -21,7 +21,27 @@ html, body {
 .add:hover,
 .add:active {
   transform:scale(1.1);
-  background: lightgreen;
+  background: lightskyblue;
+}
+
+#add:before,
+#add:after {
+  content: "";
+  background: lightcyan;
+  position: absolute;
+  margin: 0 auto;
+  padding: .3em;
+  border-radius: .5rem
+}
+
+#add:before {
+  top: 30%;
+  bottom: 30%;
+}
+
+#add:after {
+  right: 25%;
+  left: 25%;
 }
 
 .form {
@@ -227,6 +247,7 @@ h1 {
   right: 10%;
   background: yellowgreen;
   padding-top: 1em;
+  border-radius: .2em;
 }
 
 .done:after {
@@ -261,6 +282,11 @@ h1 {
       font-weight: 600;
       color: #FFF;
       transition: all 250ms;
+  }
+  
+  .done {
+      top: -11%;
+      right: 10%;
   }
 }
 
