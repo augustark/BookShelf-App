@@ -1,21 +1,21 @@
 let myLibrary = [
     {
-      title: "Spiderman",
-      author: "Stan Lee",
-      pages: 234,
-      isRead: true
-    },
-    {
-      title: "The House of El",
-      author: "Jor El",
+      title: "All Light We Cannot See",
+      author: "Anthony Doerr",
       pages: 234,
       isRead: false
     },
     {
-      title: "People Hate What They Don't Understand",
-      author: "Martha Kent",
+      title: "Deep Work",
+      author: "Cal Newport",
       pages: 234,
       isRead: true
+    },
+    {
+      title: "The 4-Hour Chef",
+      author: "Timothy Ferriss",
+      pages: 234,
+      isRead: false
     }
   ]
   
